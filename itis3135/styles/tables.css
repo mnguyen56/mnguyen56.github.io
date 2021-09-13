@@ -1,0 +1,63 @@
+body {
+    font-family: 'Calibri';
+    color: #0c374d;
+    background-color: #aaccff;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+header, footer {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Cambria';
+    text-align: center;
+}
+
+a {
+    color: #0c374d;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #171e21;
+    text-decoration: underline;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+nav {
+    text-align: center;
+    font-weight: bold;
+}
+
+ol {
+    display: table;
+    margin: auto;
+}
+
+table {
+    margin: auto;
+}
+
+table tr:nth-child(odd) {
+    background-color: #598cd9;
+    color: black;
+}
+
+table tr:nth-child(even) {
+    background-color: #82b4ff;
+    color: black;
+}
+
+table tr:nth-child(1) {
+    background-color: #0c374d;
+    color: #aaccff;
+}
