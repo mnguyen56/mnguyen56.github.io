@@ -47,6 +47,10 @@ input {
     margin-bottom: 10px;
 }
 
+/* since the size attribute doesn't support input type "number", I just changed its width through CSS*/
+input[type=number] {
+    width: 240px;
+}
 button {
     background-color: #0c374d;
     color: #aaccff;
