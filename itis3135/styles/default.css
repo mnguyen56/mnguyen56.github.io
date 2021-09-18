@@ -37,3 +37,18 @@ nav {
     text-align: center;
     font-weight: bold;
 }
+
+label {
+    font-family:'Trebuchet MS', sans-serif;
+    display: block;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #0c374d;
+    color: #aaccff;
+    margin-top: 10px;
+}
