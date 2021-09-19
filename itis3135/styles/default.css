@@ -38,6 +38,30 @@ nav {
     font-weight: bold;
 }
 
+ol {
+    display: table;
+    margin: auto;
+}
+
+table {
+    margin: auto;
+}
+
+table tr:nth-child(odd) {
+    background-color: #598cd9;
+    color: black;
+}
+
+table tr:nth-child(even) {
+    background-color: #82b4ff;
+    color: black;
+}
+
+table tr:nth-child(1) {
+    background-color: #0c374d;
+    color: #aaccff;
+}
+
 label {
     font-family:'Trebuchet MS', sans-serif;
     display: block;
@@ -47,7 +71,8 @@ input {
     margin-bottom: 10px;
 }
 
-/* since the size attribute doesn't support input type "number", I just changed its width through CSS*/
+/* For Activity #3: since the size attribute doesn't support input type "number", 
+I just changed its width through CSS to match other input fields*/
 input[type=number] {
     width: 240px;
 }
