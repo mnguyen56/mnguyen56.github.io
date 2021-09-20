@@ -41,6 +41,7 @@ nav {
 ol {
     display: table;
     margin: auto;
+    padding-bottom: 20px;
 }
 
 table {
@@ -81,3 +82,8 @@ button {
     color: #aaccff;
     margin-top: 10px;
 }
+
+.left-align {
+    text-align: left;
+}
+
