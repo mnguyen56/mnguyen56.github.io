@@ -2,17 +2,21 @@ body {
     font-family: 'Calibri';
     color: #0c374d;
     background-color: #aaccff;
-    margin-left: 75px;
-    margin-right: 75px;
+    margin-left: 90px;
+    margin-right: 90px;
 }
 
 header, footer {
     text-align: center;
 }
 
-h1, h2, h3 {
+h1, h2 {
     font-family: 'Cambria';
     text-align: center;
+}
+
+h3 {
+    font-family: 'Cambria';
 }
 
 a {
@@ -36,12 +40,6 @@ figcaption {
 nav {
     text-align: center;
     font-weight: bold;
-}
-
-ol {
-    display: table;
-    margin: auto;
-    padding-bottom: 20px;
 }
 
 table {
@@ -86,4 +84,3 @@ button {
 .left-align {
     text-align: left;
 }
-
