@@ -1,0 +1,100 @@
+body {
+    background-color: darksalmon;
+}
+
+main {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+header, footer {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: 'Calibri';
+}
+
+p {
+    text-align: center;
+    font-family: 'Calibri';
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+nav {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+a {
+    font-family: 'Montserrat';
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color:black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr.solid {
+    margin-top: 30px;
+    border-top: 2px solid;
+    border-color: black;
+}
+
+#home-image {
+    margin-left: 30px;
+}
+
+label {
+    font-family: 'Calibri';
+    display: block;
+    margin-top: 5px;
+}
+
+input {
+    margin-bottom: 5px;
+}
+
+input[type=number] {
+    width: 240px;
+}
+
+button {
+    background-color: #533317;
+    color: white;
+    margin-top: 10px;
+    display: block;
+}
+
+figure {
+    text-align: center;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.center-align {
+    text-align: center;
+}
+
+li {
+    font-family: 'Calibri';
+}
